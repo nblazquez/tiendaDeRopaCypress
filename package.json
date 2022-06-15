@@ -4,7 +4,8 @@
   "description": "Automatizacion de pruebas en sistema de tienda de ropa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "cypress": "cypress open"
   },
   "keywords": [
     "automatizacion",
@@ -17,5 +18,9 @@
   "dependencies": {
     "cypress": "^10.1.0",
     "typescript": "^4.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nblazquez/tiendaDeRopaCypress"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "name": "tienda-ropa",
+  "version": "1.0.0",
+  "description": "Automatizacion de pruebas en sistema de tienda de ropa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automatizacion",
+    "qa",
+    "cypress",
+    "tutorial"
+  ],
+  "author": "Nazareth Blazquez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.1.0",
+    "typescript": "^4.7.3"
+  }
+}
